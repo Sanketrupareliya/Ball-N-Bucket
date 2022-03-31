@@ -1,0 +1,46 @@
+.startb{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 3;
+    position: fixed;
+}
+
+#score{
+    background-color: #eea47fff;
+    color: aliceblue;
+    border-radius: 7px;
+}
+
+.imgani {
+    position: relative;
+    animation-name: example;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes example {
+    0%   {margin-left:0%;}
+    50%  {margin-left:85%;}
+    100% {margin-left:0%}
+}
+
+#ball{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+/* .topDownAni{
+    position: relative;
+    animation-name: topDwon;
+    animation-duration: 0.8s;
+}
+@keyframes topDwon {
+    0%   {margin-top:0%;}
+    100%  {margin-top: 463px;}
+} */
+
+#bucket{
+    margin-left: 200px;
+}
